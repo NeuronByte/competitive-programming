@@ -1,10 +1,9 @@
-#include<iostream>
+#include<bits/stdc++.h>
 using namespace std;
  
 int main() {
 	int n;
   	cin >> n;
-  	string color = (n%2) == 0 ? "White" : "Black";
-  	cout << color;
+  	cout << (n%2 == 0 ? "White" : "Black");
   	return 0;
 }
